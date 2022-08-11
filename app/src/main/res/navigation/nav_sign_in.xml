@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navSignIn">
+
+    <fragment
+        android:id="@+id/navSignIn"
+        android:name="com.app.presentation.ui.onBoarding.SignInFragment"
+        android:label="SignInFragment"
+        tools:layout="@layout/fragment_sign_in">
+
+<!--        <action-->
+<!--            android:id="@+id/navigateToForgotPasswordFragment"-->
+<!--            app:destination="@+id/forgotPasswordFragment" />-->
+
+    </fragment>
+
+<!--    <fragment-->
+<!--        android:id="@+id/forgotPasswordFragment"-->
+<!--        android:name="com.app.ui.onBoarding.ForgotPasswordFragment"-->
+<!--        android:label="ForgotPasswordFragment"-->
+<!--        tools:layout="@layout/fragment_forgot_password">-->
+
+<!--        <argument-->
+<!--            android:name="data"-->
+<!--            android:defaultValue="" />-->
+<!--    </fragment>-->
+
+</navigation>
